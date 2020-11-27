@@ -3,10 +3,10 @@ import config from './config'
 import env from 'dotenv'
 
 // Models
-import User from '../../models/User'
+import Usuario from '../../models/usuario'
 
 // Buffer
-const models = [User]
+const models = [Usuario]
 
 class DataBase {
 

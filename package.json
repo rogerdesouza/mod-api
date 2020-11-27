@@ -25,7 +25,8 @@
     "pg": "^8.5.1",
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.3.5",
-    "sucrase": "^3.16.0"
+    "sucrase": "^3.16.0",
+    "yup": "^0.31.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"

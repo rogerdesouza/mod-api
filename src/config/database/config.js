@@ -8,7 +8,6 @@ module.exports = {
         host: process.env.DB_HOST || '0.0.0.0',
         port: process.env.DB_PORT || 5432,
         dialect: process.env.DB_DIALECT || 'postgres',
-        logging: true,
         define: {
             timestamps: true,
             underscored: true,
@@ -22,7 +21,6 @@ module.exports = {
         host: process.env.DB_HOST || '0.0.0.0',
         port: process.env.DB_PORT || 5432,
         dialect: process.env.DB_DIALECT || 'postgres',
-        logging: true,
         define: {
             timestamps: true,
             underscored: true,
@@ -36,7 +34,6 @@ module.exports = {
         host: process.env.DB_HOST,
         port: process.env.DB_PORT,
         dialect: process.env.DB_DIALECT,
-        logging: false,
         define: {
             timestamps: true,
             underscored: true,
