@@ -56,7 +56,7 @@ class UsuarioController {
     // Exibe um único registro
     async show() { }
     // Altera um único registro
-    update() { }
+    update(req, res) { return res.json({ message: 'Método Update' }) }
     // Remove um único registro
     async delete() { }
 
