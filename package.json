@@ -20,14 +20,12 @@
   "homepage": "https://github.com/rogerdesouza/mod-api#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
     "sucrase": "^3.16.0"
   },
   "devDependencies": {
-    "eslint": "^7.14.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
     "nodemon": "^2.0.6"
   }
 }
