@@ -1,5 +1,6 @@
 import express from 'express'
 import routes from './routes'
+import DatabaseConfig from './config/database/sequelize.config'
 
 export class App {
 
