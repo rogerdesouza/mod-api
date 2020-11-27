@@ -1,0 +1,33 @@
+{
+  "name": "mod-api",
+  "version": "1.0.0",
+  "description": "Modelo de API com NodeJs e PostgreSQL em ES6",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server",
+    "dev:debug": "nodemon --inspect src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerdesouza/mod-api.git"
+  },
+  "keywords": [],
+  "author": "Roger de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogerdesouza/mod-api/issues"
+  },
+  "homepage": "https://github.com/rogerdesouza/mod-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sucrase": "^3.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "nodemon": "^2.0.6"
+  }
+}
