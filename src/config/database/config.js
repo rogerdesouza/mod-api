@@ -9,6 +9,7 @@ module.exports = {
         port: process.env.DB_PORT || 5432,
         dialect: process.env.DB_DIALECT || 'postgres',
         define: {
+            freezeTableName: true,
             timestamps: true,
             underscored: true,
             underscoredAll: true
@@ -22,6 +23,7 @@ module.exports = {
         port: process.env.DB_PORT || 5432,
         dialect: process.env.DB_DIALECT || 'postgres',
         define: {
+            freezeTableName: true,
             timestamps: true,
             underscored: true,
             underscoredAll: true
@@ -35,6 +37,7 @@ module.exports = {
         port: process.env.DB_PORT,
         dialect: process.env.DB_DIALECT,
         define: {
+            freezeTableName: true,
             timestamps: true,
             underscored: true,
             underscoredAll: true
